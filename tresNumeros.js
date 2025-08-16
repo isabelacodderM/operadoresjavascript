@@ -1,0 +1,4 @@
+let num1 = parseInt(prompt("ingrese un numero"));
+let num2 = parseInt(prompt("ingrese otro numero"));
+let num3 = parseInt(prompt("ingrese otro numero"));
+(num1 > num2 && num1 > num3)? alert("el numero 1 es mayor que el numero 2 y el numero 3"): alert("el numero 3 es mayor que el numero 2 y el numero 1") (num2 > num1 && num2 > num3)? alert("el numero 2 es mayor que el numero 1 y el numero 3"): alert("el numero 3 es mayor que el numero 1 y el numero 2") (num3 > num1 && num3 > num2)? alert("el numero 3 es mayor que el numero 1 y el numero 2"): alert("el numero 2 es mayor que el numero 1 y el numero 3");
