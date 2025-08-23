@@ -1,0 +1,16 @@
+let num1 = parseInt(prompt("ingrese un numero"));
+console.log(num1);
+let num2 = parseInt(prompt("ingrese otro numero"));
+console.log(num2);
+let suma = num1 + num2;
+console.log(suma);  
+let resta = num1 - num2;
+console.log(resta);
+let multiplicacion = num1 * num2;
+console.log(multiplicacion);
+let division = num1 / num2;
+console.log(division);
+alert("este es su resultado en suma: " + suma);
+alert("este es su resultado en resta: " + resta);
+alert("este es su resultado en multiplicacion: " + multiplicacion);
+alert("este es su resultado en division: " + division);
